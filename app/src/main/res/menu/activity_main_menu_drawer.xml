@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Event Map" />
+        <item
+            android:id="@+id/nav_stories"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Stories" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Account" />
+    </group>
+
+    <item
+        android:id="@+id/nav_event_list"
+        android:icon="?android:attr/actionModeFindDrawable"
+        android:title="Event List" />
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@android:drawable/presence_offline"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
